@@ -1,37 +1,92 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/2314665413/exam/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/2314665413/exam/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="main/index.css">
+</head>
+<body>
+    <div class="allcontent">
+        <header>
+            <img src="images/mylogo.png" alt="my photo">
+    </header>
+    <nav>
+            <ul>
+                <li class="selected">
+                    <a href="index.html">首页</a><!--被选择的页面-->
+                </li> 
+                <li>
+                    <a href="voluntary.html">志愿服务</a>
+                </li>
+                <li>
+                    <a href="interest.html">个人兴趣</a>
+                </li>
+                <li>
+                    <a href="life1.html">吃喝玩乐</a>
+                </li>
+            </ul>
+        </nav>
+    <!--导航区内容结束-->
+    <div class="flex-container"><!--定义flex容器，带有两个flex项目-->
+        <div class="flex-column1"><!--第一个项目-->
+            <div class="photo">
+                <img src="images/首页.png" alt="欢迎来到庆子咩的小屋">
+            </div>
+        </div>
+        <div class="flex-column2">
+            <div class="photo">
+                <img src="images/headerlogo.jpg" alt="图片">
+            </div>
+            <div id="text">
+                <table >
+                    <tr>
+                        <th>姓名</th>
+                        <td>彭某某</td>
+                    </tr>
+                    <tr>
+                        <th>年龄</th>
+                        <td>19</td>
+                    </tr>
+                    <tr>
+                        <th>政治面貌</th>
+                        <td>共青团员</td>
+                    </tr>
+                    <tr>
+                        <th>学校</th>
+                        <td>中南财经政法大学</td>
+                    </tr>
+                    <tr>
+                        <th>学院</th>
+                        <td>信息与安全工程学院</td>
+                    </tr>
+                    <tr>
+                        <th>专业</th>
+                        <td>信息管理与信息系统</td>
+                    </tr>
+                    <tr>
+                        <th>主修课程</th>
+                        <td>数据结构，运筹与决策，web前端开发</td>
+                    </tr>
+                    <tr>
+                        <th>联系电话</th>
+                        <td>88888888</td>
+                    </tr>
+                    <tr>
+                        <th>电子邮箱</th>
+                        <td>PQL8838888.@163.com</td>
+                    </tr>
+                </table>
+            </div>
+        </div> 
+    </div>
+    <!--个人展示部分-->
+    <footer>
+        <p>© 2022, KEIKO'S HUT</p>
+        <p><q>生活就像一盒巧克力，你永远不知道下一颗是什么味道</q></p>   
+    </footer>
+    </div>
+    
+</body>
+</html>
