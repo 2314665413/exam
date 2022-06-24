@@ -1,0 +1,104 @@
+div.grid-container{
+    display:grid;/*设置网格布局*/
+    grid-template-columns: 200px 420px auto;/*分别设置第一列宽度为200px,第二列为420px*/
+    grid-template-rows: 125px 125px 125px 125px 125px 125px;/*设置六行的行高*/
+    justify-content: space-around;/*容器内对齐整个网络*/
+    align-content: center;/*垂直对齐容器内的整个网络*/
+    grid-gap:20px 40px;/*设置行列间距*/
+    padding:40px;
+    background-color: rgba(240,248,255,0.7);
+    color:white;
+
+}
+.grid-item1{
+    grid-row: 1 / 2;/*第一个网格块包括第一行和第二行*/
+    grid-column: 1;/*包括第一列*/
+    padding-top:50px;
+}
+.grid-item2{
+    grid-row: 3 / 4;/*第2个网格块包括第3行和第4行*/
+    grid-column: 1;
+    padding-top:50px;
+}
+.grid-item3{
+    grid-row: 5 / 6;
+    grid-column: 1;
+    padding-top:50px;
+}
+.grid-item4{
+    grid-row: 1 / 2;/*第4个网格块包括第1行和第2行*/
+    grid-column: 2;/*第4个网格块包括第2列*/
+}
+.grid-item5{
+    grid-row: 3 / 4;
+    grid-column: 2;
+}
+.grid-item6{
+    grid-row: 5 / 6;
+    grid-column: 2;
+}
+.grid-item7{
+    grid-row: 1 ;/*第7个网格块包括第1行*/
+    grid-column: 3;/*第7个网格块包括第3列*/
+    margin:10px;
+}
+.grid-item8{
+    grid-row: 2 ;
+    grid-column: 3;
+    margin:10px;
+}
+.grid-item9{
+    grid-row: 3 ;
+    grid-column: 3;
+    margin:10px;
+}
+.grid-item10{
+    grid-row: 4 ;
+    grid-column: 3;
+    margin:10px;
+}
+.grid-item11{
+    grid-row: 5 ;
+    grid-column: 3;
+    margin:10px;
+}
+.grid-item12{
+    grid-row: 6 ;
+    grid-column: 3;
+    margin:10px;
+}
+/*整体布局设置*/
+
+h2{
+    background-color:rgb(48, 99, 154);
+    width:185px;
+    height:50px;
+    text-align: center;
+    padding:20px 0px 0px 0px;
+    border-left:15px groove rgb(48, 99, 150) ;
+}
+div.photo img{
+    border:15px groove rgb(48, 99, 150);
+    box-shadow: 10px 10px rgba(42, 39, 39,0.7);/*盒子阴影*/
+    text-align: center;
+}
+h3{
+    color:rgb(48, 99, 150);
+    text-shadow:5px 5px white;
+    line-height: 0.5em;
+    font-weight: bold;
+}
+div.text_i p{
+        color:rgb(48, 99, 150);
+}
+span.name{
+    margin:5px;
+    font-weight: bold;/*加粗*/
+}
+span.place{
+    margin:5px;
+}
+span.director{
+    margin:5px;
+    font-style: italic;/*倾斜*/
+}

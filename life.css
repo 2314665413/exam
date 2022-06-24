@@ -1,0 +1,41 @@
+div.aside1{
+    position:fixed;/*固定定位*/
+    margin-top: 200px;
+}
+div.table{
+    display:table;/*设置表格布局*/
+    background-color: rgba(240,248,255,0.7);
+    width:950px;
+    margin:auto auto auto auto;/*设置表格自动居中*/
+    border-spacing:20px;/*设置单元格间距为20px*/
+}
+div.tablerow{
+    display:table-row;/*行*/
+}
+section#video{
+    display:table-cell;/*单元格*/
+    width:600px;
+    background-color: white;
+    padding:10px;
+}
+section#choosevideo{
+    display:table-cell;
+    vertical-align: top;
+}
+section#choosevideo ul{
+    list-style-type: none;
+    display:inline;
+}
+section#choosevideo ul li{
+    background-color: rgb(33, 77, 123);
+    padding:70px 10px 70px 10px;
+    font-size: 20px;
+    text-align: center;
+}
+section#choosevideo ul li.selected{
+    border:rgb(133, 177, 223) solid 10px;
+}
+video{
+    display:block;
+    margin:auto;
+}
